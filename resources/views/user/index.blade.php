@@ -55,7 +55,7 @@
         </thead>
         <tbody>
 
-            @each('user.__partials.loopUsers', $alunos, 'user', 'user.__partials.empty')
+            @each('user.__partials.loopUsers', $usuarios, 'user', 'user.__partials.empty')
 
         </tbody>
     </table>
